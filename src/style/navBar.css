@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+.nav-bar {
+    width: 480px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  @media(max-width: 375px){
+    .nav-bar {
+      position: absolute;
+      width: 375px;
+      height: 66px;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+.logo{
+    width: 25px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  }
+
+  @media(max-width: 375px){
+    .logo {
+      position: absolute;
+      width: 25px;
+      height: 40px;
+      left: 20px;
+      top: 10px;      
+    }
+  }
+
+  .comp-name{
+    width: 78px;
+  height: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  }
+
+  @media(max-width: 375px){
+    .comp-name {
+      display: none;
+    }
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .contact{
+    width: 56px;
+    color: rgba(106,112,123,1);
+    position: absolute;
+    top: 14px;
+    left: 424px;
+    font-family: Arial;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  @media(max-width: 375px){
+    .contact {
+      position: absolute;
+width: 49px;
+height: 24px;
+left: 306px;
+top: 21px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #6A707B;
+    }
+  }
+
+  .how{
+    width: 91px;
+    color: rgba(106,112,123,1);
+    position: absolute;
+    top: 14px;
+    left: 303px;
+    font-family: Arial;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  @media(max-width: 375px){
+    .how{
+      position: absolute;
+      width: 80px;
+      height: 24px;
+      left: 206px;
+      top: 21px;
+      
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      /* identical to box height, or 171% */
+      
+      
+      color: #6A707B;
+    }
+  }
+
+  .aout{
+    width: 42px;
+    color: rgba(106,112,123,1);
+    position: absolute;
+    top: 14px;
+    left: 231px;
+    font-family: Arial;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  @media(max-width: 375px){
+    .aout {
+      position: absolute;
+      width: 37px;
+      height: 24px;
+      left: 149px;
+      top: 21px;
+      
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      /* identical to box height, or 171% */
+      
+      
+      color: #6A707B;
+    }
+  }

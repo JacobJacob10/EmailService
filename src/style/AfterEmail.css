@@ -1,0 +1,83 @@
+.cup{
+    position: absolute;
+    top: 269px;
+    left: 140px;
+}
+
+@media(max-width: 375px){
+    .cup{
+       top: 30px;
+       left: 20px;
+      
+        
+    }
+  }
+
+
+.sub2{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 140px;
+    top: 369px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+}
+
+@media(max-width: 375px){
+    .sub2{
+        position: absolute;
+        width: 295px;
+        height: 34px;
+        left: 20px;
+        top: 139px;
+        
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        /* identical to box height, or 142% */
+        color: #131821;
+         
+    }
+  }
+
+.disc2{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+
+@media(max-width: 375px){
+    .disc2{
+        position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 20px;
+    top: 183px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+/* or 186% */
+
+
+color: #6A707B;
+         
+    }
+  }

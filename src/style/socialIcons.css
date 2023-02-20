@@ -1,0 +1,139 @@
+.tw {
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #F2F5FA;
+    border-radius: 50%;
+    color:#E3E3E4 ;
+    border: 2px solid #E3E3E4;
+    background-size: cover;
+
+    position: absolute;
+    top: 0px;
+    left: 132px;
+    overflow: hidden;
+    
+  }
+
+
+  .tw:hover{
+    background-color: #1DA1F2;
+  }
+  .tw:active{
+    background-color: #177FBF;
+  }
+
+ 
+     .icon {
+    color:rgba(19,24,33,1);
+     opacity: 0.30000001192092896;
+  }
+  
+  .tw:hover .icon{
+    color:#FFFFFF;
+    opacity: 1;
+  }
+
+  .yt {
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #F2F5FA;
+    border-radius: 50%;
+    color:#E3E3E4 ;
+    border: 2px solid #E3E3E4;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 198px;
+    overflow: hidden;
+  }
+
+  .yt:hover{
+    background-color: #FF0000;
+  }
+  .yt:active{
+    background-color: #CC0000;
+  }
+
+  .yt:hover .icon{
+    color:#FFFFFF;
+    opacity: 1;
+  }
+
+  .insta {
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #F2F5FA;
+    border-radius: 50%;
+    color:#E3E3E4 ;
+    border: 2px solid #E3E3E4;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 66px;
+    overflow: hidden;
+  }
+
+  .insta:hover{
+    background-color: #C13584;
+  }
+  .insta:active{
+    background-color: #8F2762;
+  }
+
+  .insta:hover .icon{
+    color:#FFFFFF;
+    opacity: 1;
+  }
+
+  .fb {
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #F2F5FA;
+    border-radius: 50%;
+    color:#E3E3E4 ;
+    border: 2px solid #E3E3E4;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .fb:hover{
+    background-color: #4267B2;  
+  }
+  .fb:active{
+    background-color: #2F4A80;  
+  }
+
+  .fb:hover .icon{
+    color:#FFFFFF;
+    opacity: 1;
+  }
+
+ 
+  .ic_tw {
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+  }
+
+  .ic_fb   {
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+  }
